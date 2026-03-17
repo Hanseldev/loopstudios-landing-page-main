@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en" class="overscroll-none">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>loopstudios-landing-page-main</title>
+  </head>
+  <body class="">
+    <header
+      class="h-screen w-screen lg:h-fit bg-[url('/src/assets/images/mobile/image-hero.jpg')] bg-cover bg-center bg-no-repeat p-8 flex flex-col justify-start mb-24 lg:px-32 md:py-8"
+    >
+      <div class="flex self-start items-center justify-between w-full md:mb-8">
+        <img src="/src/assets/images/logo.svg" alt="" id="logo" class="w-36 z-30" />
+        <nav class="items-center">
+          <div id="hamburger" class="bg-[url('/src/assets/images/icon-hamburger.svg')] bg-no-repeat bg-contain bg-center w-12 h-4 cursor-pointer z-30 md:hidden"></div>
+
+          <ul id="mobile-menu" class="hidden h-screen w-screen bg-black text-left flex flex-col justify-center px-8 fixed top-0 left-0 [&_li]:font-josefin-sans [&_li]:active:text-[rgba(225,225,225,0.7)] font-extralight text-white text-4xl gap-6 inset-0 z-20">
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">CAREERS</a></li>
+            <li><a href="">EVENTS</a></li>
+            <li><a href="">PRODUCTS</a></li>
+            <li><a href="">SUPPORT</a></li>
+          </ul>
+          
+          <ul class="hidden space-y-4 font- mb-6 font-semibold md:flex md:gap-x-4 md:mb-0 md:space-y-0 text-white text-right">
+          <li><a href="" class="line hover:line">About</a></li>
+          <li><a href="" class="line hover:line">Careers</a></li>
+          <li><a href="" class="line hover:line">Events</a></li>
+          <li><a href="" class="line hover:line">Products</a></li>
+          <li><a href="" class="line hover:line">Support</a></li>
+        </ul>
+        </nav>
+      </div>
+
+      <div
+        class="border-white border-2 text-4xl tracking-widest py-4 px-6 font-light text-white flex my-auto font-josefin-sans lg:w-fit lg:mb-8"
+      >
+        <p>
+          <span class="block">IMMERSING</span>
+          <span class="block">EXPERIENCES</span>
+          <span class="block lg:inline">THAT</span>
+          <span class="block lg:inline">DELIVER</span>
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <article class="p-6 lg:px-32">
+        <section class="flex flex-col items-center text-center lg:relative lg:block mb-24">
+          <picture>
+            <source
+              media="(min-width: 1024px)"
+              srcset="src/assets/images/desktop/image-interactive.jpg"
+            />
+            <img src="src/assets/images/mobile/image-interactive.jpg" alt="" class="lg:w-3/4 mb-6 lg:mb-0" />
+          </picture>
+          <div class="lg:absolute lg:bottom-0 lg:right-0 bg-white lg:text-left max-w-xs  lg:pt-16 lg:pl-16 lg:max-w-md">
+            <h2 class="text-4xl tracking-widest font-light mb-6 lg:text-3xl">
+              THE LEADER IN INTERACTIVE VR
+            </h2>
+            <p class="font-atala text-grey lg:text-xs">
+              Founded in 2011, Loopstudios has been producing world-class virtual
+              reality projects for some of the best companies around the globe.
+              Our award-winning creations have transformed businesses through
+              digital experiences that bind to their brand.
+            </p>
+          </div>
+        </section>
+
+        <section class="flex flex-col items-center gap-6 text-center mb-24 lg:grid lg:grid-cols-2">
+          <h2 class="text-4xl tracking-widest font-light lg:order-1 lg:flex lg:grid-cols-1">OUR CREATIONS</h2>
+
+          <div class="grid lg:grid-cols-4 grid-rows-2 gap-6 font-josefin-sans text-3xl lg:order-3 lg:col-span-2 lg:text-2xl">
+            <div class="relative after:absolute after:inset-0 after:bg-gradient-to-t after:from-black/60 after:to-transparent after:transition-colors after:duration-300 hover:after:from-[rgba(255,255,255,0.4)]/100 hover:after:to-[rgba(255,255,255,0.4)] text-white hover:text-black transform-colors">
+              <picture>
+                <source media="(min-width: 1024px)" srcset="src/assets/images/desktop/image-deep-earth.jpg" />
+                <img src="src/assets/images/mobile/image-deep-earth.jpg" alt="" class="w-full" />
+              </picture>
+              <p class="absolute bottom-4 left-4 tracking-widest font-light text-left z-10">
+                <span class="block">DEEP</span>
+                <span class="block">EARTH</span>
+              </p>
+            </div>
+
+            <div class="relative after:absolute after:inset-0 after:bg-gradient-to-t after:from-black/60 after:to-transparent after:transition-colors after:duration-300 hover:after:from-[rgba(255,255,255,0.4)]/100 hover:after:to-[rgba(255,255,255,0.4)] text-white hover:text-black transform-colors">
+              <picture>
+                <source media="(min-width: 1024px)" srcset="src/assets/images/desktop/image-night-arcade.jpg" />
+                <img src="src/assets/images/mobile/image-night-arcade.jpg" alt="" class="w-full" />
+              </picture>
+              <p class="absolute bottom-4 left-4 tracking-widest font-light text-left z-10">
+                <span class="block">NIGHT</span>
+                <span class="block">ARCADE</span>
+              </p>
+            </div>
+
+            <div class="relative after:absolute after:inset-0 after:bg-gradient-to-t after:from-black/60 after:to-transparent after:transition-colors after:duration-300 hover:after:from-[rgba(255,255,255,0.4)]/100 hover:after:to-[rgba(255,255,255,0.4)] text-white hover:text-black transform-colors">
+              <picture>
+                <source media="(min-width: 1024px)" srcset="src/assets/images/desktop/image-soccer-team.jpg" />
+                <img src="src/assets/images/mobile/image-soccer-team.jpg" alt="" class="w-full" />
+              </picture>
+              <p class="absolute bottom-4 left-4 tracking-widest font-light text-left z-10">
+                <span class="block">SOCCER</span>
+                <span class="block">TEAM VR</span>
+              </p>
+            </div>
+
+            <div class="relative after:absolute after:inset-0 after:bg-gradient-to-t after:from-black/60 after:to-transparent after:transition-colors after:duration-300 hover:after:from-[rgba(255,255,255,0.4)]/100 hover:after:to-[rgba(255,255,255,0.4)] text-white hover:text-black transform-colors">
+              <picture>
+                <source media="(min-width: 1024px)" srcset="src/assets/images/desktop/image-grid.jpg" />
+                <img src="src/assets/images/mobile/image-grid.jpg" alt="" class="w-full" />
+              </picture>
+              <p class="absolute bottom-4 left-4 tracking-widest font-light text-left z-10">
+                <span class="block">THE</span>
+                <span class="block">GRID</span>
+              </p>
+            </div>
+
+            <div class="relative after:absolute after:inset-0 after:bg-gradient-to-t after:from-black/60 after:to-transparent after:transition-colors after:duration-300 hover:after:from-[rgba(255,255,255,0.4)]/100 hover:after:to-[rgba(255,255,255,0.4)] text-white hover:text-black transform-colors">
+              <picture>
+                <source media="(min-width: 1024px)" srcset="src/assets/images/desktop/image-from-above.jpg" />
+                <img src="src/assets/images/mobile/image-from-above.jpg" alt="" class="w-full" />
+              </picture>
+              <p class="absolute bottom-4 left-4 tracking-widest font-light text-left z-10">
+                <span class="block">FROM UP</span>
+                <span class="block">ABOVE VR</span>
+              </p>
+            </div>
+
+            <div class="relative after:absolute after:inset-0 after:bg-gradient-to-t after:from-black/60 after:to-transparent after:transition-colors after:duration-300 hover:after:from-[rgba(255,255,255,0.4)]/100 hover:after:to-[rgba(255,255,255,0.4)] text-white hover:text-black transform-colors">
+              <picture>
+                <source media="(min-width: 1024px)" srcset="src/assets/images/desktop/image-pocket-borealis.jpg" />
+                <img src="src/assets/images/mobile/image-pocket-borealis.jpg" alt="" class="w-full" />
+              </picture>
+              <p class="absolute bottom-4 left-4 tracking-widest font-light text-left z-10">
+                <span class="block">POCKET</span>
+                <span class="block">BOREALIS</span>
+              </p>
+            </div>
+
+            <div class="relative after:absolute after:inset-0 after:bg-gradient-to-t after:from-black/60 after:to-transparent after:transition-colors after:duration-300 hover:after:from-[rgba(255,255,255,0.4)]/100 hover:after:to-[rgba(255,255,255,0.4)] text-white hover:text-black transform-colors">
+              <picture>
+                <source media="(min-width: 1024px)" srcset="src/assets/images/desktop/image-curiosity.jpg" />
+                <img src="src/assets/images/mobile/image-curiosity.jpg" alt="" class="w-full" />
+              </picture>
+              <p class="absolute bottom-4 left-4 tracking-widest font-light text-left z-10">
+                <span class="block">THE</span>
+                <span class="block">CURIOSITY</span>
+              </p>
+            </div>
+
+            <div class="relative after:absolute after:inset-0 after:bg-gradient-to-t after:from-black/60 after:to-transparent after:transition-colors after:duration-300 hover:after:from-[rgba(255,255,255,0.4)]/100 hover:after:to-[rgba(255,255,255,0.4)] text-white hover:text-black transform-colors">
+              <picture>
+                <source media="(min-width: 1024px)" srcset="src/assets/images/desktop/image-fisheye.jpg" />
+                <img src="src/assets/images/mobile/image-fisheye.jpg" alt="" class="w-full" />
+              </picture>
+              <p class="absolute bottom-4 left-4 tracking-widest font-light text-left z-10">
+                <span class="block">MAKE IT</span>
+                <span class="block">FISHEYE</span>
+              </p>
+            </div>
+          </div>
+
+          <button class="border-grey border-2 py-2 px-6 tracking-[5px] font-josefin-sans lg:order-2 lg:grid-col-2 lg:w-fit lg:justify-self-end hover:border-black hover:bg-black hover:text-white transition-colors duration-300">SEE ALL</button>
+        </section>
+      </article>
+    </main>
+
+    <footer class="p-16 bg-black flex flex-col justify-center items-center text-white text-center lg:flex-row lg:justify-between lg:py-6 lg:px-32">
+      <div class="mb-6 lg:flex flex-col items-center gap-6 lg:items-start lg:mb-0">
+        <img src="/src/assets/images/logo.svg" alt="" class="mb-6 lg:w-36 lg:mb-0">
+        <ul class="space-y-4 font- mb-6 font-semibold lg:flex lg:gap-x-4 lg:mb-0 lg:space-y-0">
+          <li><a href="" class="line hover:line">About</a></li>
+          <li><a href="" class="line hover:line">Careers</a></li>
+          <li><a href="" class="line hover:line">Events</a></li>
+          <li><a href="" class="line hover:line">Products</a></li>
+          <li><a href="" class="line hover:line">Support</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <ul class="flex gap-x-4 items-center justify-center mb-4 lg:justify-end">
+          <li class="line hover:line"><a href=""><img src="" alt=""><img src="src/assets/images/icon-facebook.svg" alt=""></a></li>
+          <li class="line hover:line"><a href=""><img src="src/assets/images/icon-twitter.svg" alt=""></a></li>
+          <li class="line hover:line"><a href=""><img src="src/assets/images/icon-pinterest.svg" alt=""></a></li>
+          <li class="line hover:line"><a href=""><img src="src/assets/images/icon-instagram.svg" alt=""></a></li>
+
+        </ul>
+
+        <p class="text-grey">&copy; <span class="js-year"></span> Loopstudios. All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/scripts/main.js"></script>
+  </body>
+</html>

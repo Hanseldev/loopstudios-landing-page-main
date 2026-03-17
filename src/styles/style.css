@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"); /* Atala */
+
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"); /* Josefin Sans */
+
+@import "tailwindcss";
+
+@theme {
+  --color-grey: hsl(0, 0%, 55%);
+  --font-atala: "Outfit";
+  --font-josefin-sans: "josefin sans";
+}
+
+.line {
+  @apply relative after:absolute after:-bottom-2 after:left-1/2 after:-translate-x-1/2 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 after:rounded-md hover:after:w-1/2;
+}
+
+.card-img {
+  @apply opacity-100 transition-opacity duration-300;
+}
+
+.card-img:hover {
+  @apply opacity-30;
+}
+
+#hamburger.is-close {
+  background-image: url('/src/assets/images/icon-close.svg');
+}
